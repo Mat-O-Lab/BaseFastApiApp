@@ -7,7 +7,7 @@ class Setting(BaseSettings):
     contact_name: str = str(os.environ.get("ADMIN_NAME")) or "Max Mustermann"
     admin_email: str = str(os.environ.get("ADMIN_MAIL")) or "app_admin@example.com"
     items_per_user: int = 50
-    version: str = str(os.environ.get("APP_VERSION")) or "v1.2.0"
+    version: str = str(os.environ.get("APP_VERSION")) or "v1.0.0"
     config_name: str = str(os.environ.get("APP_MODE")) or "development"
     openapi_url: str ="/api/openapi.json"
     docs_url: str = "/api/docs"
