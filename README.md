@@ -25,7 +25,7 @@ git clone https://github.com/Mat-O-Lab/BaseFastApiApp
 ```
 cd into the cloned folder
 ```bash
-cd CSVToCSVW
+cd BaseFastApiApp
 ```
 Build and start the container.
 ```bash
